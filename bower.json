@@ -1,0 +1,6 @@
+{
+  "name": "bobchien",
+  "dependencies": {
+    "jquery": "~2.2.3"
+  }
+}
