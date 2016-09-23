@@ -1,6 +1,6 @@
 body {
-  background: url(asset_path("arches.png"));
-  background-color: rgba(0, 0, 0, 0);
+  background: url("/assets/arches.png");
+  background-color: transparent;
   background-size: auto;
   background-repeat: stretch;
   background-origin: padding-box;
@@ -10,20 +10,15 @@ body {
   font-weight: 300;
   height: 100%;
   max-height: 100%;
-  letter-spacing: 0.01rem;
-}
+  letter-spacing: 0.01rem; }
 
 .site-title {
-  margin: 40px 0;
-}
+  margin: 40px 0; }
 
 .link-section {
-  margin: 40px 0;
-  a {
+  margin: 40px 0; }
+  .link-section a {
     margin: 0 5px;
-    color: #1f1f1f;
-    &:hover {
-      color: lighten(#1f1f1f, 20%);
-    }
-  }
-}
+    color: #1f1f1f; }
+    .link-section a:hover {
+      color: #525252; }
