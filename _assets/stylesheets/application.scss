@@ -1,0 +1,29 @@
+body {
+  background: url(asset_path("arches.png"));
+  background-color: rgba(0, 0, 0, 0);
+  background-size: auto;
+  background-repeat: stretch;
+  background-origin: padding-box;
+  background-clip: border-box;
+  background-attachment: scroll;
+  font-family: 'Lato', 'Helvetica Neue', 'Microsoft Jhenghei', Helvetica, sans-serif;
+  font-weight: 300;
+  height: 100%;
+  max-height: 100%;
+  letter-spacing: 0.01rem;
+}
+
+.site-title {
+  margin: 40px 0;
+}
+
+.link-section {
+  margin: 40px 0;
+  a {
+    margin: 0 5px;
+    color: #1f1f1f;
+    &:hover {
+      color: lighten(#1f1f1f, 20%);
+    }
+  }
+}
